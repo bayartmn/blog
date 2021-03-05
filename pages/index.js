@@ -26,7 +26,7 @@ export default function Home({ posts }) {
           </Col>
         </Row>
 
-        <pre>{/*JSON.stringify(posts, null, 2)*/}</pre>
+        <pre>{JSON.stringify(posts, null, 2)}</pre>
 
         <hr />
 
