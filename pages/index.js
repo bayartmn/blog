@@ -4,7 +4,7 @@ import Alert from "react-bootstrap/Alert";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
       {[
         "primary",
         "secondary",
