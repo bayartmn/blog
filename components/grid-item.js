@@ -30,7 +30,7 @@ export default ({ post }) => {
           <a>
             <div className="view overlay">
               <Card.Img
-                src={urlFor(post.image).height(300).url()}
+                src={urlFor(post.image).height(200).url()}
                 alt="Card image cap"
               />
             </div>
